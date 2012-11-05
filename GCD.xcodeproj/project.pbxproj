@@ -13,6 +13,8 @@
 		0696A5B41622C89100A1D269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0696A5B21622C89100A1D269 /* InfoPlist.strings */; };
 		0696A5B61622C89100A1D269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696A5B51622C89100A1D269 /* main.m */; };
 		0696A5BA1622C89100A1D269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696A5B91622C89100A1D269 /* AppDelegate.m */; };
+		0696A5C31622C8C000A1D269 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0696A5C11622C8C000A1D269 /* RootViewController.m */; };
+		0696A5C41622C8C000A1D269 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0696A5C21622C8C000A1D269 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		0696A5B71622C89100A1D269 /* GCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCD-Prefix.pch"; sourceTree = "<group>"; };
 		0696A5B81622C89100A1D269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0696A5B91622C89100A1D269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0696A5C01622C8C000A1D269 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0696A5C11622C8C000A1D269 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0696A5C21622C8C000A1D269 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				0696A5B81622C89100A1D269 /* AppDelegate.h */,
 				0696A5B91622C89100A1D269 /* AppDelegate.m */,
 				0696A5B01622C89100A1D269 /* Supporting Files */,
+				0696A5C01622C8C000A1D269 /* RootViewController.h */,
+				0696A5C11622C8C000A1D269 /* RootViewController.m */,
+				0696A5C21622C8C000A1D269 /* RootViewController.xib */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0696A5B41622C89100A1D269 /* InfoPlist.strings in Resources */,
+				0696A5C41622C8C000A1D269 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				0696A5B61622C89100A1D269 /* main.m in Sources */,
 				0696A5BA1622C89100A1D269 /* AppDelegate.m in Sources */,
+				0696A5C31622C8C000A1D269 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +231,7 @@
 		0696A5BE1622C89100A1D269 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCD/GCD-Prefix.pch";
 				INFOPLIST_FILE = "GCD/GCD-Info.plist";
@@ -232,6 +243,7 @@
 		0696A5BF1622C89100A1D269 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCD/GCD-Prefix.pch";
 				INFOPLIST_FILE = "GCD/GCD-Info.plist";
@@ -259,6 +271,7 @@
 				0696A5BF1622C89100A1D269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
